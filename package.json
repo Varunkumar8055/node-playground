@@ -4,11 +4,12 @@
   "description": "NodeJS Playground",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.ts"
+    "start": "npx ts-node src/index.ts"
   },
   "author": "Varun",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.13.10",
     "typescript": "^5.8.2"
   }
 }

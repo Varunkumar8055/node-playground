@@ -4,7 +4,8 @@
   "description": "NodeJS Playground",
   "main": "index.js",
   "scripts": {
-    "start": "npx ts-node src/index.ts"
+    "start": "npx ts-node src/calculator.ts",
+    "run-remainder": "npx ts-node rem/remainder.ts"
   },
   "author": "Varun",
   "license": "MIT",

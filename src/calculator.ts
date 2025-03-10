@@ -1,4 +1,4 @@
-
+function addd(a:number, b:number):number{return a+b};
 
 function add(a: number, b: number): number {
     return a + b;
@@ -20,7 +20,7 @@ function divide(a: number, b: number): number {
 }
 
 // Example usage:
-console.log("Addition: " + add(5, 3)); // Output: Addition: 8
+console.log("Addition: " + addd(5, 3)); // Output: Addition: 8
 console.log("Subtraction: " + subtract(5, 3)); // Output: Subtraction: 2
 console.log("Multiplication: " + multiply(5, 3)); // Output: Multiplication: 15
 console.log("Division: " + divide(5, 3)); // Output: Division: 1.6666666666666667
